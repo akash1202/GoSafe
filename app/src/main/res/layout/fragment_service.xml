@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top">
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_marginTop="-100dp"
+    android:layout_marginLeft="-80dp"
+    android:src="@drawable/logo_corona"
+    />
+    <ImageView
+        android:layout_gravity="right"
+        android:layout_marginRight="50dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_corona" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:paddingVertical="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="7dp"
+        app:cardCornerRadius="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:paddingVertical="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="25dp"
+            android:paddingLeft="25dp"
+            android:paddingVertical="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/medicalTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Medicines"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/medicalSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="General"
+                android:textColor="@android:color/white"
+                android:textSize="15dp" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/medicineButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Details"
+            android:textSize="15sp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:paddingVertical="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="7dp"
+        app:cardCornerRadius="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:paddingVertical="5dp"
+
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="25dp"
+            android:paddingLeft="25dp"
+            android:paddingVertical="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/hospitalTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Hospitals"
+                android:textSize="25sp"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:id="@+id/hospitalSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="public"
+                android:textColor="@android:color/white"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/hospitalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorPrimary"
+            android:text="Details"
+            android:layout_marginRight="10dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_corona"
+        />
+</LinearLayout>

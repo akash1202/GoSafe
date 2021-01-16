@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Go Safe</string>
+    <string name="update">Update</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news_title">News Title</string>
+    <string name="news_summary">Total  2000 new cases registed yesterday in Toronto...premier put whole city on Red alert in addition to  Lock down.</string>
+    <string name="news_link">https://www.cbc.ca/cmlink/rss-topstories</string>
+    <string name="news_data">https://testit1010.000webhostapp.com/news.php</string>
+    <string name="hint">Search by Region</string>
+    <string name="news1">Health Canada is expected to approve the Pfizer/BioNTech vaccine this week, and the first shipments are on track to arrive next week. Immunization for this vaccine requires two doses administered weeks apart, so the initial batch would be enough for nearly 125,000 Canadians.</string>
+    <string name="news2">There were 364,810 confirmed cases of COVID-19 in Canada as of end-of-day Saturday, according to a CTV News tracker, including 61,421 cases that were classified as active – an increase of 113 per cent over the 28,875 cases that were active as of Nov. 1.</string>
+    <string name="news3">"Covid-19 cases are rising in many parts of Canada, but one region - Nunavut, a northern territory - is a rare place in North America that can say it's free of coronavirus in its communities."</string>
+    <string name="newslink1"><u>https://www.cbc.ca/news/canada/vaccine-rollout-provinces-1.5831787</u></string>
+    <string name="newslink2"><u>https://www.ctvnews.ca/health/coronavirus/canada-has-twice-as-many-active-covid-19-cases-as-it-did-on-nov-1-1.5209320</u></string>
+    <string name="newslink3"><u>https://www.bbc.com/news/world-us-canada-54405736</u></string>
+    <string name="medicine1image">https://www.grxstatic.com/d4fuqqd5l3dbz/products/DrugItem_29922.JPG</string>
+    <string name="medicine1title">Hydroxychloroquine</string>
+    <string name="medicine1description">Plaquenil (hydroxychloroquine) is an effective medication for autoimmune conditions (such as rheumatoid arthritis and lupus) and certain types of malaria. It is typically a second-line option for RA and can be used either alone or with other medications. Plaquenil (hydroxychloroquine) is generally well-tolerated.</string>
+    <string name="medicine1link"><u>https://www.goodrx.com/hydroxychloroquine</u>></string>
+    <string name="medicine2image">https://www.grxstatic.com/d4fuqqd5l3dbz/products/DrugItem_1984.JPG</string>
+    <string name="medicine2title">Chloroquine</string>
+    <string name="medicine2description">Chloroquine is an anti-malarial medication. It works by interfering with certain processes that parasites need to grow.</string>
+    <string name="medicine2link"><u>https://www.goodrx.com/chloroquine-phosphate </u></string>
+
+    <string name="medicine3image">https://www.europeanpharmaceuticalreview.com/wp-content/uploads/Remdesivir-1.jpg</string>
+    <string name="medicine3title">Remdesivir</string>
+    <string name="medicine3description">Remdesivir is an experimental medicine being studied for use in treating conditions caused by coronaviruses. It is not yet known if remdesivir is a safe and effective treatment for any condition.Remdesivir has not been approved to treat coronavirus or COVID-19.</string>
+    <string name="medicine3link"><u>https://www.drugs.com/mtm/remdesivir.html</u></string>
+
+    <string name="medicine4image">https://factcheck.afp.com/sites/default/files/styles/list_xs/public/medias/factchecking/ethiopia/rem3.png</string>
+    <string name="medicine4title">Veklury</string>
+    <string name="medicine4description">Veklury is a prescription medicine used to treat adults and children 12 years of age and older and weighing at least 88 pounds (40 kg) with coronavirus disease 2019 (COVID-19) requiring hospitalization.</string>
+    <string name="medicine4link"><u>https://www.drugs.com/veklury.html</u></string>
+
+    <string name="covidSymptomsq1">what are the common symptoms of this covid-19?</string>
+    <string name="covidSymptomsq2">Chloroquine and hydroxychloroquine are being investigated as treatment for COVID-19.</string>
+    <string name="covidSymptomsq3">There is no evidence garlic will protect against coronavirus.</string>
+    <string name="covidSymptomsq4">Vitamin C and zinc might help shorten the duration of the illness if you get COVID-19.</string>
+    <string name="covidSymptomsa1">
+Most common symptoms: fever dry cough tiredness Less common symptoms: aches and pains sore throat diarrhoea conjunctivitis headache loss of taste or smell a rash on skin, or discolouration of fingers or toes
+Serious symptoms: difficulty breathing or shortness of breath chest pain or pressure loss of speech or movement</string>
+    <string name="covidSymptomsa2">Chloroquine and hydroxychloroquine are FDA-approved for other conditions but must be taken only under a doctor\'s care. Both can have some serious potential side effects, including damage to the retina and to the heart.</string>
+    <string name="covidSymptomsa3">Garlic and other known natural blood-thinners taken in pill or capsule form can increase the risk of bleeding during medical procedures, should you need hospitalization. Other supplements known to have this blood-thinning effect include ginger, ginkgo biloba, grape seed extract, turmeric and cinnamon.</string>
+    <string name="covidSymptomsa4">Purchase vitamin C from a reputable manufacturer, or include fruits and juices high in Vitamin C in your diet.
+Zinc is an ingredient in several "natural" cold remedies, and studies indicate it may shorten the duration of the common cold. The novel coronavirus is part of a larger group of coronaviruses that includes the virus that causes the common cold.</string>
+    <string name="more">More...</string>
+    <string name="hospitalsLink">https://services1.arcgis.com/B6yKvIZqzuOr0jBR/arcgis/rest/services/COVID19_Testing_Centres_in_Canada/FeatureServer/0/query?where=1%3D1&amp;outFields=OBJECTID,USER_Name,USER_Link,USER_Street,USER_City,USER_Prov,USER_PostalCode,USER_Phone,USER_Notes,Field,GlobalID,CreationDate,Creator,EditDate,Editor&amp;outSR=4326&amp;f=json</string>
+<string name="covid_data">https://api.opencovid.ca/summary?date=</string>
+</resources>
