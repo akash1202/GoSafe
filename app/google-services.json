@@ -7,6 +7,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:80547349627:android:97d547a2e97a3dc1290ede",
+        "android_client_info": {
+          "package_name": "ca.cegepgim.gosafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80547349627-gv0rrq1cv98kd4u6iub5teo9gksqd08s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQyhXP6nNq6GjxpGl9JMLBMvR2SKzpF0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80547349627-gv0rrq1cv98kd4u6iub5teo9gksqd08s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:80547349627:android:ac59b9fa0b51b465290ede",
         "android_client_info": {
           "package_name": "com.example.gosafe"

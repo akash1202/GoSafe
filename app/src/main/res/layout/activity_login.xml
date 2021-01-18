@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".LoginActivity">
+        tools:context="ca.cegepgim.gosafe.LoginActivity">
 
         <ImageView
             android:layout_width="250dp"
